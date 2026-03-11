@@ -1,0 +1,10 @@
+<group name="modsecurity, custom_rules,"> 
+  <rule id="100005" level="12"> 
+    <if_sid>31333</if_sid> 
+    <description>ALERTA CRÍTICO: WAF ModSecurity bloqueou um ataque Web direcionado.</description> 
+    <mitre> 
+      <id>T1190</id> 
+    </mitre> 
+    <group>attack,pci_dss_6.5,pci_dss_11.4,</group> 
+  </rule> 
+</group> 

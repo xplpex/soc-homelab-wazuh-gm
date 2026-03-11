@@ -1,0 +1,21 @@
+version: '3.8' 
+services: 
+  dvwa: 
+    image: vulnerables/web-dvwa 
+    container_name: dvwa-app 
+    restart: always 
+    ports: 
+      - "8080:80" 
+ 
+  modsecurity-waf: 
+    image: owasp/modsecurity-crs:nginx 
+    container_name: modsecurity-waf 
+    restart: always 
+    ports: 
+      - "80:80" 
+    environment: 
+      - PROXY_SSL=off 
+      - BACKEND=http://dvwa-app:80
+      - SEC_RULE_ENGINE=On 
+    volumes: 
+      - ./waf-logs:/var/log/modsec 
