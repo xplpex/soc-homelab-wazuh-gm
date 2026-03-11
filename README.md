@@ -1,6 +1,11 @@
-# 🛡️ SOC Home Lab: Construção, Simulação de Ataque e Engenharia de Detecção
+# 🛡️ SOC Home Lab & Detection Engineering
 
-Este projeto documenta a construção de um laboratório completo de Security Operations Center (SOC) do zero, simulando um ambiente corporativo real. O objetivo foi provisionar a infraestrutura, implementar defesas de borda, executar ataques cibernéticos e, por fim, atuar como Detection Engineer para afinar os alertas do SIEM.
+**Um laboratório prático demonstrando o ciclo de vida completo de uma operação de cibersegurança: Provisionamento de Infraestrutura (Docker/LVM), Defesa de Borda (ModSecurity WAF), Simulação de Ataques (Kali Linux) e Engenharia de Detecção (Wazuh SIEM).**
+
+[![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-blue?style=flat&logo=wazuh)](https://wazuh.com/)
+[![ModSecurity](https://img.shields.io/badge/WAF-ModSecurity-red?style=flat)](#)
+[![Docker](https://img.shields.io/badge/Infra-Docker-2496ED?style=flat&logo=docker)](https://www.docker.com/)
+[![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu)](https://ubuntu.com/)
 
 ## 🎯 Objetivo do Projeto
 Demonstrar na prática o fluxo completo de um ciberataque e sua respectiva mitigação e detecção, passando pelas disciplinas de Infraestrutura, Red Team e Blue Team.
@@ -83,3 +88,4 @@ Após o tuning e reinicialização do Manager, um novo ataque cirúrgico foi dis
 ---
 ## 💡 Conclusão e Lições Aprendidas
 Este laboratório demonstrou que implantar ferramentas de segurança (como WAFs e SIEMs) é apenas o passo inicial de uma estratégia de defesa. O trabalho vital de um time de Blue Team está em entender o comportamento dos logs, realizar troubleshooting constante da infraestrutura (como o roteamento de logs via Docker e LVM Storage) e, principalmente, afinar as regras de detecção para transformar dados brutos em inteligência acionável.
+
