@@ -1,6 +1,11 @@
 # 🛡️ SOC Home Lab & Detection Engineering
 
-Um laboratório prático demonstrando o ciclo de vida completo de uma operação de cibersegurança: Provisionamento de Infraestrutura (Docker/LVM), Defesa de Borda (ModSecurity WAF), Simulação de Ataques (Red Team) e Engenharia de Detecção (Wazuh SIEM).
+**Um laboratório prático demonstrando o ciclo de vida completo de uma operação de cibersegurança: Provisionamento de Infraestrutura (Docker/LVM), Defesa de Borda (ModSecurity WAF), Simulação de Ataques (Kali Linux) e Engenharia de Detecção (Wazuh SIEM).**
+
+[![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-blue?style=flat&logo=wazuh)](https://wazuh.com/)
+[![ModSecurity](https://img.shields.io/badge/WAF-ModSecurity-red?style=flat)](#)
+[![Docker](https://img.shields.io/badge/Infra-Docker-2496ED?style=flat&logo=docker)](https://www.docker.com/)
+[![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu)](https://ubuntu.com/)
 
 ## 🎯 Objetivo do Projeto
 Demonstrar na prática o fluxo completo de um ciberataque e sua respectiva mitigação e detecção, passando pelas disciplinas de Infraestrutura, Red Team e Blue Team.
