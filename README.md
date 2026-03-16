@@ -26,6 +26,7 @@ The lab's foundation was built on an Ubuntu server running all services inside D
 
 
 **Base server provisioning:**
+
 ![Base Server](images/1InicioUbuntu.PNG)
 
 During the provisioning of the SIEM's resource-heavy stack, I encountered a classic infrastructure incident response scenario: disk exhaustion. To resolve the outage, I operated directly on the Linux filesystem — physically expanding the disk and performing a live LVM partition resize (lvextend and resize2fs) with zero data loss.
